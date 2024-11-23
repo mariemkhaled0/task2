@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #081028;
+}
+.filter-active {
+  filter: brightness(0) saturate(100%) invert(33%) sepia(93%) saturate(750%)
+    hue-rotate(280deg) brightness(97%) contrast(103%);
+}
