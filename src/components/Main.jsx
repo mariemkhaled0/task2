@@ -13,7 +13,7 @@ function Main() {
         </div>
         <div>
           <img width={130} src={person} />
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center flex-wrap gap-4">
             <div>
               <h2 className="font-bold text-3xl pt-3">Bahaa Ehab</h2>
               <p className=" text-sm text-[#AEB9E1] ">Admin</p>
@@ -29,7 +29,7 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="bg-[#0B1739] mt-4 px-7 py-5 rounded-lg border border-[#333643] flex gap-14 items-center flex-col md:flex-row">
+      <div className="bg-[#0B1739] mt-4 px-7 py-5 rounded-lg border border-[#333643]  w-full gap-14 items-center flex  flex-wrap">
         <div>
           <img src={bag} className="inline-block " />
           <span className="text-xs ml-1">mail</span>
